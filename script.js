@@ -5,9 +5,9 @@ const person = {
   age: 80,
 };
 
-let team = players;
-let team1 = players;
-let cap1 = person;
+const team = players;
+const team1 = players.slice();
+const cap1 = Object.assign({}, person);
 
 window.players = players;
 window.person = person;
